@@ -1,8 +1,10 @@
-
-// document.querySelector("h1").style.color='brown'
-
-// window.alert("100*7") 
-document.write("<h1>hello</h1>")
-document.write("test test")
-console.log(58*6)
-// document.createElement("<h3>hhi<h3>")
+var TitleOne ="Elzero",DescriptionCard="Elzero wep school",DateOn="15/10";
+var varDiv =`
+<h1>Hello ${TitleOne}</h1>
+<p>${DescriptionCard}</p>
+<span>${DateOn}</span>
+`;
+document.write(varDiv);
+document.write(varDiv);
+document.write(varDiv);
+document.write(varDiv);
